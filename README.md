@@ -124,6 +124,12 @@ Thus, whenever data of this type is instantiated, the proper validation is ensur
 
 This is, of course, not a magic bullet. It is still possible to introduce ambiguity through inexact type derivation - of course, it is also possible to create a domain space that is *too* precise, and becomes a convoluted mess of wrapper-derived types. However, used properly, this architectural pattern should succeed in its goals of improving code-reuse, domain context expression, and compile-time error discovery.
 
+#Installation
+
+This library is available via nuget. To install Value Type Wrappers, run the following command in the Package Manager Console
+
+`Install-Package ValueTypeWrappers`
+
 #### Footnotes
 
 1. I am not suggesting that validating e-mail addresses is a good idea, merely a useful example.
